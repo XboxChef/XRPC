@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Serenity\Desktop\XRPC.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1519DC81-44CB-4BF9-96DA-B8E47D637D4D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>XRPC</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>XDevkit</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="XBOX_PROCESS_INFO.cs" />
+    <Compile Include="XboxAccessFlags.cs" />
+    <Compile Include="XBOX_USER.cs" />
+    <Compile Include="XboxModuleInfoFlags.cs" />
+    <Compile Include="XBOX_MODULE_INFO.cs" />
+    <Compile Include="XboxSectionInfoFlags.cs" />
+    <Compile Include="XBOX_SECTION_INFO.cs" />
+    <Compile Include="XBOX_THREAD_INFO.cs" />
+    <Compile Include="XboxFunctionType.cs" />
+    <Compile Include="XBOX_FUNCTION_INFO.cs" />
+    <Compile Include="XboxDebugEventType.cs" />
+    <Compile Include="XboxExecutionState.cs" />
+    <Compile Include="XboxStopOnFlags.cs" />
+    <Compile Include="XboxRebootFlags.cs" />
+    <Compile Include="XboxExceptionFlags.cs" />
+    <Compile Include="XBOX_EVENT_INFO.cs" />
+    <Compile Include="IXboxThread.cs" />
+    <Compile Include="IXboxStackFrame.cs" />
+    <Compile Include="XboxRegisters32.cs" />
+    <Compile Include="XboxRegisters64.cs" />
+    <Compile Include="XboxRegistersDouble.cs" />
+    <Compile Include="XboxRegistersVector.cs" />
+    <Compile Include="IXboxModule.cs" />
+    <Compile Include="IXboxSections.cs" />
+    <Compile Include="IXboxSection.cs" />
+    <Compile Include="IXboxExecutable.cs" />
+    <Compile Include="XboxBreakpointType.cs" />
+    <Compile Include="XboxSelectConsoleFlags.cs" />
+    <Compile Include="XboxDebugConnectFlags.cs" />
+    <Compile Include="XboxDumpFlags.cs" />
+    <Compile Include="XboxDumpMode.cs" />
+    <Compile Include="XboxEventDeferFlags.cs" />
+    <Compile Include="XboxDumpReportFlags.cs" />
+    <Compile Include="XBOX_DUMP_SETTINGS.cs" />
+    <Compile Include="IXboxManager.cs" />
+    <Compile Include="IXboxConsoles.cs" />
+    <Compile Include="IXboxDebugTarget.cs" />
+    <Compile Include="IXboxModules.cs" />
+    <Compile Include="IXboxThreads.cs" />
+    <Compile Include="IXboxMemoryRegions.cs" />
+    <Compile Include="IXboxMemoryRegion.cs" />
+    <Compile Include="XboxMemoryRegionFlags.cs" />
+    <Compile Include="IXboxFiles.cs" />
+    <Compile Include="IXboxFile.cs" />
+    <Compile Include="XboxCreateDisposition.cs" />
+    <Compile Include="XboxConsoleType.cs" />
+    <Compile Include="IXboxAutomation.cs" />
+    <Compile Include="XBOX_AUTOMATION_GAMEPAD.cs" />
+    <Compile Include="XboxAutomationButtonFlags.cs" />
+    <Compile Include="IXboxUser.cs" />
+    <Compile Include="IXboxUsers.cs" />
+    <Compile Include="IXboxEventInfo.cs" />
+    <Compile Include="XboxEvents.cs" />
+    <Compile Include="IXboxEvents.cs" />
+    <Compile Include="XboxConsoleClass.cs" />
+    <Compile Include="XboxEvents_Event.cs" />
+    <Compile Include="XboxEvents_OnStdNotifyEventHandler.cs" />
+    <Compile Include="XboxEvents_OnTextNotifyEventHandler.cs" />
+    <Compile Include="XboxConsole.cs" />
+    <Compile Include="XboxManagerClass.cs" />
+    <Compile Include="XboxManager.cs" />
+    <Compile Include="XboxExecutableDatabaseClass.cs" />
+    <Compile Include="XboxExecutableDatabase.cs" />
+    <Compile Include="IXboxExecutableDatabase.cs" />
+    <Compile Include="XboxShareMode.cs" />
+    <Compile Include="IXboxExecutableInfo.cs" />
+    <Compile Include="XboxEvents_SinkHelper.cs" />
+    <Compile Include="XboxEvents_EventProvider.cs" />
+    <Compile Include="XboxConsoleFeatures.cs" />
+    <Compile Include="_002F_002FboxConsolf.cs" />
+    <Compile Include="XRPCLib\XRPC.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
