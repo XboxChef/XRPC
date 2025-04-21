@@ -13,7 +13,7 @@ namespace XDevkit
   [Guid("75DD80A9-5A33-42D4-8A39-AB07C9B17CC3")]
   [ComVisible(true)]
   [ComImport]
-  public interface \u002F\u002FboxConsolf
+  public interface XboxConsoles
   {
     [DispId(0)]
     [IndexerName("Name")]
