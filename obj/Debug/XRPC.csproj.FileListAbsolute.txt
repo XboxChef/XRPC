@@ -1,8 +1,0 @@
-C:\Users\Serenity\Documents\Reflector\Disassembler\New folder\XRPC\obj\Debug\XRPC.csprojAssemblyReference.cache
-C:\Users\Serenity\Documents\Reflector\Disassembler\New folder\XRPC\obj\Debug\XRPC.csproj.CoreCompileInputs.cache
-C:\Users\Serenity\Documents\Reflector\Disassembler\New folder\XRPC\bin\Debug\XRPC.dll
-C:\Users\Serenity\Documents\Reflector\Disassembler\New folder\XRPC\bin\Debug\XRPC.pdb
-C:\Users\Serenity\Documents\Reflector\Disassembler\New folder\XRPC\bin\Debug\xdevkit.dll
-C:\Users\Serenity\Documents\Reflector\Disassembler\New folder\XRPC\obj\Debug\XRPC.csproj.CopyComplete
-C:\Users\Serenity\Documents\Reflector\Disassembler\New folder\XRPC\obj\Debug\XRPC.dll
-C:\Users\Serenity\Documents\Reflector\Disassembler\New folder\XRPC\obj\Debug\XRPC.pdb
